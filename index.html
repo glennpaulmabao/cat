@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>The Catastrophe</title>
+
+    <style>
+        html { font-size: 1rem; }
+        @media (min-width: 576px){
+            html { font-size: .75rem; }
+            }
+        @media (min-width: 768px) {
+            html { font-size: 1rem; }
+            }
+            @media (min-width: 992px) {
+                html { font-size: 1.3rem; }
+                }
+                @media (min-width: 1200px) {
+                    html { font-size: 1.5rem; }}
+        li.nav-font{
+            font-family: Fjalla One;
+            text-decoration: none;
+            color: #c48901;
+        }
+        h1.header{
+            font-family: Poppins;
+            font-weight: 700;
+            color: white;
+        }
+        p.header{
+            font-family: Poppins;
+            font-weight: 400;
+            color: white;
+        }
+        .uno{
+            padding: 20px 100px 0px 100px;
+            background-image: url("images/bg_header1.jpg");
+            background-color: #ffb302;
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        .uno-header{
+            height: 590px;
+            width: auto;
+        }
+        .butones {
+            display: inline-block;
+            padding: 15px 40px;
+            font-family: Fjalla One;
+            font-size: 24px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #f65e43;
+            border: none;
+            border-radius: 3px;
+            box-shadow: 0 9px #ff2501;
+}
+        .dos{
+            padding: 100px;
+            background-color: white;
+        }
+        h1.dos-header{
+            text-align: center;
+            font-family: Poppins;
+            font-weight: 700;
+            color: #f65e43;
+        }
+        h5.dos-header{
+            font-family: Fjalla One;
+            color:#140e48;
+        }
+        p.dos-header{
+            text-align: center;
+            font-family: Poppins;
+            font-weight: 400;
+            color: #212529;
+        }
+        .tres{
+            padding: 100px;
+            height: auto;
+            background-image: url("images/bg_hallofmeows.jpg");
+            background-color: #bee4ed;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .whiteborder{
+            margin: 20px 0px 20px 0px;
+            border-color: white;
+            border-style: solid;
+            border-radius: 5px;
+            border-width: 5px;
+        }
+        h1.tres-header{
+            font-family: Poppins;
+            font-weight: 800;
+            color:#140e48;
+        }
+        p.tres-header{
+            font-family: Poppins;
+            font-weight: 400;
+            color: #3a2ca0;
+        }
+        .quatro{
+            padding: 100px;
+            background-image: url("images/bg_adopting101.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        b.quatro-header{
+            font-family: Fjalla One;
+            color: #ffb302;
+            font-weight: 200;
+            font-size: .9rem;
+        }
+        b.quatro-desc{
+            font-family: Poppins;
+            font-weight: 300;
+            color:#b6b2da;
+            font-size: .7rem;
+        }
+        h1.quatro-header{
+            font-family: Poppins;
+            font-weight: 800;
+            color:white;
+        }
+        p.quatro-header{
+            font-family: Poppins;
+            font-weight: 400;
+            color: #b6b2da;
+        }
+        ul.quatro-check{
+            margin: 0 0 0 32px;
+            line-height: 1.5;
+            list-style-image: url(http://upload.wikimedia.org/wikipedia/commons/1/19/Icons-mini-icon_attachment.gif);
+        }
+        .cinco{
+            height: auto;
+            padding: 100px;
+            background-image: url("images/bg_appointment.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: #ff8402;
+        }
+        h1.cinco-header{
+            font-family: Poppins;
+            font-weight: 500;
+            color:white;
+        }
+        p.cinco-header{
+            font-family: Poppins;
+            font-weight: 600;
+            color: #ffcfa3;
+        }
+        .seis{
+            padding: 100px;
+            height: 500px;
+            background-color: #140e48;
+        }
+        h1.seis-header{
+            font-family: Poppins;
+            font-weight: 800;
+            color:white;
+        }
+        p.seis-header{
+            font-family: Poppins;
+            font-weight: 600;
+            color: #ffb302;
+        }
+    </style>
+
+
+
+  </head>
+  <body>
+      <div class="container-fluid">
+          <div class="row uno h-100">
+              <div class="container">
+                  <div class="row">
+                    <nav class="navbar navbar-expand-md navbar-dark nav-font">
+                        <a class="nav-link" href="#"><img src="images/logo.png" class="img-fluid" alt="" height="72px" width="225px"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                          <ul class="navbar-nav">
+                            <li class="nav-item nav-font">
+                              <a class="nav-link" href="#">FIND A FURFRIEND</a>
+                            </li>
+                            <li class="nav-item nav-font">
+                              <a class="nav-link" href="#">ADOPT GUIDE</a>
+                            </li>
+                          </ul>
+                        </div>  
+                      </nav>    
+                  </div>
+                  <div class="row uno-header justify-content-between align-items-center">
+                    <div class="col-md-5">
+                        <h1 class="header">LAST CHANCE TO ADOPT!</h1>
+                        <p class="header">4 Hours 30 mins left</p>
+                            <p>
+                                <input type="button" class="butones" value="MAKE APPOINTMENT NOW">
+                            </p> 
+                      </div>    
+                  </div>
+              </div>
+          </div>
+          <div class="row dos">
+              <div class="container">
+                  <div class="row">
+                      <center>
+                        <h1 class="dos-header">Only heroes-adopt.</h1>
+                        <p class="dos-header"><b>Not all heroes wear capes!</b> Saving the world is not a job that is only exclusive to comic heroes in new york city... Now, you can do your part with one paw at a time.</p>
+                      </center>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-8">
+                        <img class="img-fluid" src="images/graphic_01.png" alt="">
+                        <h5 class="dos-header text-center">TRUE COMPANIONSHIP</h5>
+                        <p class="text-center">Opening your doors to your new furry friend brings a wholesome new meaning to friendship.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-8">
+                        <img class="img-fluid" src="images/graphic_02.png" alt="">
+                        <h5 class="dos-header text-center">FULFILLING ROLSE</h5>
+                        <p class="text-center">The major side effect of being there for your furry friend is feeling very rewarded when they purr!</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-8">
+                        <img class="img-fluid" src="images/graphic_03.png" alt="">
+                        <h5 class="dos-header text-center">LOVING COMMUNITY</h5>
+                        <p class="text-center">You will be part of a huge and growing community of adopters worldwide, to share your experiences!</p>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <div class="row tres">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-xs-8 col-sm-12 col-md-12 col-lg-9">
+                        <h1 class="tres-header">Hall of meows.</h1>
+                        <p class="tres-header">Featured felines of the week!</p>
+                        <div class="row">
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3"><img class="img-fluid whiteborder" src="images/gallery_01.png" alt=""></div>
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3"><img class="img-fluid whiteborder" src="images/gallery_02.png" alt=""></div>
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3"><img class="img-fluid whiteborder" src="images/gallery_03.png" alt=""></div>
+                            <div class="w-100"></div>
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3"><img class="img-fluid whiteborder" src="images/gallery_04.png" alt=""></div>
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3"><img class="img-fluid whiteborder" src="images/gallery_05.png" alt=""></div>
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3"><img class="img-fluid whiteborder" src="images/gallery_06.png" alt=""></div>
+                        </div>
+                            <input type="button" class="butones" value="BROWSE MORE">
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="row quatro">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-7">
+                        <h1 class="quatro-header">Adopting 101</h1>
+                        <p class="quatro-header">Class is in session! Here's a basic guide of what you would probably want to have along with you at our adopting center.</p>
+                        <ul class="list-group">
+                            <li class="list-item quatro-check"><p><b class="quatro-header" >AN OPEN MIND</b> <b class="quatro-desc">Not all furry creatures are alike!</b></p></li>
+                            <li class="list-item quatro-check"><p><b class="quatro-header" >COMFORTABLE SHOES</b> <b class="quatro-desc">You'll be on your feet all day, trust us!</b></p></li>
+                            <li class="list-item quatro-check"><p><b class="quatro-header" >MOBILE PHONE</b> <b class="quatro-desc">To take pictures of your potential furry companion, of course!</b></p></li>
+                          </ul>
+                          <input type="button" class="butones" value="LET'S ADOPT">
+                    </div>    
+                </div>
+            </div>
+          </div>
+          <div class="row cinco">
+              <div class="container">
+                  <div class="row">
+                      <div class="col">
+                          <h1 class="cinco-header">Make an Appointment</h1>
+                          <p class="cinco-header">Time is Gold! Make an appointment to prevent disappointment!</p>
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4 col-sm-4 col-lg-4 col-xs-6"><label for="exampleFormControlInput1"></label>
+                        <form action="/action_page.php">
+                            <input class="form-control"type="date" id="birthday" name="birthday">
+                          </form>
+                          
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-lg-4 col-xs-6">
+                        <label for="exampleFormControlSelect2"></label>
+                        <select class="form-control"  id="exampleFormControlSelect2">
+                        <option>State A</option>
+                        <option>State A</option>
+                        <option>State B</option>
+                        <option>State B</option>
+                        <option>State B</option>
+                        <option>State C</option>
+                        <option>State D</option>
+                        <option>State D</option>
+                        <option>State D</option>
+                     </select>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-lg-4 col-xs-6">
+                        <label for="exampleFormControlSelect2"></label>
+                        <select class="form-control" id="exampleFormControlSelect2">
+                        <option>Branch A</option>
+                        <option>Branch A1</option>
+                        <option>Branch B</option>
+                        <option>Branch B1</option>
+                        <option>Branch B2</option>
+                        <option>Branch C</option>
+                        <option>Branch D</option>
+                        <option>Branch D1</option>
+                        <option>Branch D2</option>
+                     </select>
+                    </div>
+                  </div><br>
+                    <input type="button" class="butones" value="SUBMIT"></br></br></br></br></br></br></br>
+              </div>
+          </div>
+          <div class="row seis">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6">
+                        <h1 class="seis-header">Extra hands?</h1>
+                        <p class="seis-header">YES please! Be a volunteer today:</p>
+                      </div>
+                      <div class="col-md-3 col-lg-3 col-sm-3 col-xs-6"></br>
+                        <input type="email" class="form-control" name="youremail@address.com" placeholder="youremail@address.com">
+                      </div>
+                      <div class="col-3"></br>
+                        <input style="height:50px;" type="button" class="butones" value="I WANT TO HELP">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
